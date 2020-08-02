@@ -24,8 +24,8 @@ module.exports = {
         logo: '/logo.png',
         sidebar,
         nav: [
-            {text: '算法基础', link: '/views/basic/2.0.排序系列/0.hello.html', icon: 'reco-home'},
-            {text: '图解题典', link: '/views/algorithm/0.0.学习须知/01.html', icon: 'reco-home'},
+            {text: '图解题典', link: '/views/algorithm/0.01.指导学习/021.html', icon: 'reco-home'},
+            {text: '八大排序', link: '/views/basic/sort/0.hello.html', icon: 'reco-home'},
             {text: 'GitHub', link: 'https://github.com/geekxh/hello-algorithm', icon: 'reco-github'}
         ],
         searchPlaceholder: "搜索：KMP",

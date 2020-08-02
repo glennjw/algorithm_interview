@@ -12,6 +12,8 @@
   },
   "description": "易懂的算法教程",
   "dependencies": {
+    "md5": "^2.3.0",
+    "vue-click-outside": "^1.1.0",
     "vuejs-paginate": "^2.1.0"
   }
 }
