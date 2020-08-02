@@ -23,10 +23,12 @@ module.exports = {
     themeConfig: {
         logo: '/logo.png',
         sidebar,
-        searchPlaceholder: "搜索：KMP",
         nav: [
+            {text: '算法基础', link: '/views/basic/2.0.排序系列/0.hello.html', icon: 'reco-home'},
+            {text: '图解题典', link: '/views/algorithm/0.0.学习须知/01.html', icon: 'reco-home'},
             {text: 'GitHub', link: 'https://github.com/geekxh/hello-algorithm', icon: 'reco-github'}
         ],
+        searchPlaceholder: "搜索：KMP",
         head: [
             ['link', {rel: 'shortcut icon', href: '/favicon.ico'}]
         ],

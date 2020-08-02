@@ -1,6 +1,6 @@
 //侧边栏
 module.exports = {
-    '/': [
+    '/views/algorithm/': [
         {
             title: '学习须知',
             collapsable: false,
@@ -184,4 +184,23 @@ module.exports = {
             ]
         },
     ],
+    '/views/basic/': [
+        {
+            title: '八大排序',
+            collapsable: false,
+            children: [
+                '2.0.排序系列/0.hello',
+                '2.0.排序系列/1.bubbleSort',
+                '2.0.排序系列/2.selectionSort',
+                '2.0.排序系列/3.insertionSort',
+                '2.0.排序系列/4.shellSort',
+                '2.0.排序系列/5.mergeSort',
+                '2.0.排序系列/6.quickSort',
+                '2.0.排序系列/7.heapSort',
+                '2.0.排序系列/8.countingSort',
+                '2.0.排序系列/9.bucketSort',
+                '2.0.排序系列/10.radixSort',
+            ]
+        },
+    ]
 }
